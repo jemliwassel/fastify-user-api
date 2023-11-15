@@ -9,21 +9,21 @@ git clone https://github.com/jemliwassel/fastify-user-api.git
 
 ## API Endpoints
 
-# List Users
+### List Users
 Endpoint: GET /api/user/
 Description: Get a list of all users.
 
-# Add User
+### Add User
 Endpoint: POST /api/user/
 Description: Add a new user.
 Request Body: JSON object with user information.
 
-# Get User by ID
+### Get User by ID
 Endpoint: GET /api/user/:id
 Description: Get details of a user by their ID.
 Path Parameter: User ID.
 
-# Update User by ID
+### Update User by ID
 Endpoint: PUT /api/user/:id
 Description: Update user information by their ID.
 Path Parameter: User ID.
